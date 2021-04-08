@@ -1,4 +1,4 @@
-# Ex fugiat
+# Fugiat
 
 <img class="bordered" src="/_merged_assets/_static/images/bulksplash-enka80-m0oeEBwpmWw.jpg" alt="bulksplash-enka80-m0oeEBwpmWw.jpg" />
 
