@@ -3,7 +3,7 @@
 {% block themeBody %}
   <header id="main-header" class="header-grid-area">
     {% block header %}
-      {% include 'partials/header.njk' %}
+      {% include 'block/header.njk' %}
     {% endblock header%}
   </header>
 
@@ -31,24 +31,22 @@
   <div class="ga-content-l"></div>
   <div class="sidebar-grid-area">
     {% block sidebar %}
-      {% include 'partials/_layoutHome/sidebar.njk' %}
+      {% include 'block/sidebar.njk' %}
     {% endblock sidebar %}
   </div>
   <div class="content-grid-area">
-    {% block content %}
-      {% include 'partials/_layoutHome/content.njk' %}
-    {% endblock content %}
+    <div>where is this? Makes no sense to me</div>
   </div>
   <div class="ga-content-r"></div>
 
   <div class="ga-foot-main">
     {% block footer %}
-      {% include 'partials/footer.njk' %}
+      {% include 'block/footer.njk' %}
     {% endblock footer %}
   </div>
 
   <div class="ga-content-r"></div>
 
 
-  {% include 'partials/bottom.njk' %}
+  {% include 'block/bottom.njk' %}
 {% endblock themeBody %}

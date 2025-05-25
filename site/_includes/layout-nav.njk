@@ -1,3 +1,7 @@
+{# this was a total hack because i got tired of fighting with it April 3, 2025 #}
+
+{# you meed to fix everything here from the theme.css, grid.css to all the nunjucks files including elsewhere #}
+
 <!doctype html>
 {% block htmlTag %}
 <html lang="{{ site.lang }}" dir="{{ site.dir }}">
@@ -7,10 +11,9 @@
   <body layout="{{ layout }}">
 {% endblock bodyTag %}
 {% block themeBody %}
+    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 {% endblock themeBody%}
 {% include 'block/header.njk' %}
-{% include 'block/main.njk' %}
 {% include 'block/footer.njk' %}
-{% include 'block/bottom.njk' %}
   </body>
 </html>
