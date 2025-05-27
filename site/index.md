@@ -1,9 +1,9 @@
 ---
-title: Pull Model
+title: Home
 layout: layout-home
 eleventyNavigation:
   key: /
-  title: Pull Model Home
+  title: Home
   order: 999
 ---
 # Pull Model
