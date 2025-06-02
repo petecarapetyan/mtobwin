@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "FIXME",
+  "name": "pullmodel",
   "version": "0.2.0",
   "description": "Initial migration from rocket",
   "main": "index.html",

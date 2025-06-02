@@ -80,7 +80,7 @@ body[layout^='layout-home'] #main-header {
 
 #main-header.header-grid-area {
   font-family: 'Roboto', sans-serif;
-  background-color:black;
+  background-color:darkslategray;
   margin:0;
 }
 
