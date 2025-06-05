@@ -3,7 +3,7 @@ module.exports = function () {
     dir: 'ltr',
     lang: 'en',
     name: 'pullmodel',
-    description: 'pullmodel',
+    description: '-',
     socialLinks: [
       {
         name: 'GitHub',
